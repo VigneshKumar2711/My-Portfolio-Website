@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontend Developer Portfolio</title>
+  <link rel="icon" href="./images/Portfolio image.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Portfolio</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-left">
+      <h2>Hi, I'm <span class="typed-text">D.Vignesh Kumar</span></h2><br>
+      <p>A passionate frontend developer crafting beautiful UIs</p>
+      <a href="#contact" class="btn">Contact Me</a>
+      <a href="./Resume/Vignesh_Frontend_Resume.pdf" download class="btn">Download Resume</a>
+    </div>
+    <div class="hero-right">
+        <img src="./images/my image.jpg" alt="Vignesh" class="profile-pic" />
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>As a passionate Frontend Developer, I specialize in crafting visually stunning, responsive, and user-centric web experiences. With proficiency in HTML, CSS, JavaScript, and React.js, I focus on building dynamic websites that are both functional and intuitive. I have hands-on experience in developing various web applications, including interactive features and seamless UI/UX designs. Always eager to learn and adopt new technologies, I strive to stay ahead of industry trends to create engaging digital solutions.
+
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects Completed</h2>
+    <div class="project-grid">
+      <div class="card">
+        <h3>Weather App</h3>
+        <p>A React-based app fetching live weather using OpenWeather API.</p>
+        <div class="button-container">
+          <a href="https://github.com/VigneshKumar2711/Weather-App-React-JS.git" target="_blank" class="btn view-source-btn">View Source Code</a>
+          <a href="https://weather-app-react-js-drab.vercel.app/" target="_blank" class="btn live-demo-btn">Live Demo</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Image Gallery</h3>
+        <p>Responsive gallery using HTML, CSS and JavaScript.</p>
+        <div class="button-container">
+          <a href="https://github.com/VigneshKumar2711/Image-Gallery--React.git" target="_blank" class="btn view-source-btn">View Source Code</a>
+          <a href="https://image-gallery-react-two-roan.vercel.app/" target="_blank" class="btn live-demo-btn">Live Demo</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Quiz App</h3>
+        <p>Interactive Quiz App using HTML, CSS and JavaScript.</p>
+        <div class="button-container">
+          <a href="https://github.com/VigneshKumar2711/Quiz-App---EMC-Academy-Week-5.git" target="_blank" class="btn view-source-btn">View Source Code</a>
+          <a href="https://vigneshkumar2711.github.io/Quiz-App---EMC-Academy-Week-5/" target="_blank" class="btn live-demo-btn">Live Demo</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Nostra E-Commerce Website</h3>
+        <p>A Best Clothing Website using HTML, CSS and JavaScript.</p>
+        <div class="button-container">
+          <a href="https://github.com/VigneshKumar2711/Nostra-Ecommerce-Website.git" target="_blank" class="btn view-source-btn">View Source Code</a>
+          <a href="https://vigneshkumar2711.github.io/Nostra-Ecommerce-Website/" target="_blank" class="btn live-demo-btn">Live Demo</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Expense Tracker Management System App</h3>
+        <p>A Expense Tracker App using HTML, CSS and JavaScript.</p>
+        <div class="button-container">
+          <a href="https://github.com/VigneshKumar2711/Expense-Tracker-Management-System-App.git" target="_blank" class="btn view-source-btn">View Source Code</a>
+          <a href="https://expense-tracker-management-system-app.vercel.app/" target="_blank" class="btn live-demo-btn">Live Demo</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Basic Calculator App</h3>
+        <p>A Basic Calculator App which performs Mathematical Operations created by using HTML,CSS,Javascript.</p>
+        <div class="button-container">
+          <a href="https://github.com/VigneshKumar2711/Javascript---Basic-Calculator-App.git" target="_blank" class="btn view-source-btn">View Source Code</a>
+          <a href="https://javascript-basic-calculator-app.vercel.app/" target="_blank" class="btn live-demo-btn">Live Demo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+        <div class="skill">
+            <i class="fab fa-html5"></i>
+            <p>HTML5 <span>95%</span></p>
+            <div class="bar"><div class="progress" style="width: 95%;"></div></div>
+        </div>
+
+        <div class="skill">
+            <i class="fab fa-css3-alt"></i>
+            <p>CSS3 <span>90%</span></p>
+            <div class="bar"><div class="progress" style="width: 90%;"></div></div>
+        </div>
+
+        <div class="skill">
+            <i class="fab fa-js-square"></i>
+            <p>JavaScript <span>80%</span></p>
+            <div class="bar"><div class="progress" style="width: 80%;"></div></div>
+        </div>
+
+        <div class="skill">
+            <i class="fab fa-react"></i>
+            <p>React.js <span>75%</span></p>
+            <div class="bar"><div class="progress" style="width: 75%;"></div></div>
+        </div>
+
+        <div class="skill">
+            <i class="fab fa-github"></i>
+            <p>GitHub <span>85%</span></p>
+            <div class="bar"><div class="progress" style="width: 85%;"></div></div>
+        </div>
+
+        <div class="skill">
+            <i class="fas fa-database"></i>
+            <p>SQL <span>70%</span></p>
+            <div class="bar"><div class="progress" style="width: 70%;"></div></div>
+        </div>
+
+    </div>
+</section>
+
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" id="name" placeholder="Your Name" />
+      <input type="email" id="email" placeholder="Your Email" />
+      <textarea id="message" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <a href="http://www.linkedin.com/in/d-vignesh-kumar-449809248"><i class="fab fa-linkedin"> LinkedIn</i></a> |
+    <a href="https://github.com/VigneshKumar2711"><i class="fab fa-github"> GitHub</i></a>
+    <p>&copy; 2025 Vignesh | Frontend Developer Portfolio</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
